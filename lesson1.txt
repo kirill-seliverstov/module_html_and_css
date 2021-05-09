@@ -1,0 +1,19 @@
+1. Адукар: 
+
+HTTP/1.1 301 Moved Permanently
+Server: nginx/1.16.1
+Date: Sun, 09 May 2021 14:05:39 GMT
+Content-Type: text/html
+Content-Length: 169
+Connection: keep-alive
+Location: https://adukar.by/
+
+2. ВК: 
+
+server: 
+
+kittenx
+
+3. Google: 
+
+Location: http://www.google.com/
