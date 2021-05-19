@@ -1,15 +1,10 @@
-/* * {
-    font-family: 'Times New Roman';
-    background-color: white;
-} */
-
 .div0 {
-    width: 700px;   /* ширина */
-    height: auto; /* высота */
-    padding: 30px 20px 30px 50px; /* внутренние отступы - верх, право, низ, лево */
-    margin: 50px auto;  /* выравнивание по центру */ 
-    box-shadow: 10px 10px 20px black; /* небольшая тень для объемности */
-    background-color: white;  /* цвет фона в блоке */
+    width: 700px;   
+    height: auto; 
+    padding: 30px 20px 30px 50px;
+    margin: 50px auto; 
+    box-shadow: 10px 10px 20px black; 
+    background-color: white;  
     font-family:  "Times New Roman";
 }
 
@@ -35,7 +30,6 @@
 .div3 {
     margin-left: 50%;
     margin-top: 150px;
-    margin-right: 100px;
     font-size: 20px;
     line-height: 25px;
     white-space: nowrap;
