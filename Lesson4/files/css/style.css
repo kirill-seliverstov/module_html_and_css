@@ -1,0 +1,54 @@
+*{
+    /* Максимальный приоритет */
+    /* color: yellow !important; */
+    
+    color: black;
+}
+
+div {
+    background: #444;
+    
+    font-weight: 700;
+    
+    font-size: 30px;
+    
+    /* Ширина */
+    width: 50vw;
+    /* Высота */
+    height: 70vh;
+    /* Фон URL */
+    /* background: url(https://img.freepik.com/free-photo/hand-painted-watercolor-background-with-sky-and-clouds-shape_24972-1095.jpg?size=626&ext=jpg); */
+
+}
+
+
+/* Не применится */
+.text {
+    width: 10%;
+    text-align: right;
+    font-size: 50px;
+}
+
+.text {
+    width: 90%;
+    text-align: center;
+    font-size: 35px;
+}
+
+#text {
+    width: 20%;
+    text-align: left;
+    font-size: 15px;
+}
+
+[type] {
+    color: blue;
+}
+
+.cat a{
+    color: red;
+}
+
+.cat>p{
+    background: tomato;
+}
