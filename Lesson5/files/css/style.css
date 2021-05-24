@@ -1,0 +1,47 @@
+.title {
+    max-width: 500px;
+    /* width: 500px; */
+    height: 500px;
+    background-color: tomato;
+    padding-bottom: 10px;
+    border: 2px solid black;
+    
+    /* padding: 50px;  - 4 стороны*/
+    /* padding: 20px 30px; - верх, низ/лево, право*/
+    /* padding: 10px 20px 30px; - верх / лево, право / низ */
+    /* (по часовой) верх / право / низ / лево */
+    padding: 10px 20px 30px 40px;
+    margin: 30px;
+}
+
+.block {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+
+.block-1{
+    background-color: teal;
+    margin-bottom: 100px;
+}
+
+.block-2 {
+    background-color: yellow;
+    margin-top: 150px;
+}
+
+.inline {
+    display: inline-block;
+    width: 50px;
+    margin: 40px;
+}
+
+.box {
+    width: 100%;
+    padding: 30px;
+    background-color: yellowgreen;
+    margin-bottom: 50px;
+    border: 3px solid black;
+    box-sizing: border-box;
+}
+

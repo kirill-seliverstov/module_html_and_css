@@ -1,0 +1,47 @@
+.parent {
+    width: 500px;
+    height: 150vh;
+    background-color: gold;
+    position: relative;
+    margin: auto;
+}
+
+.child {
+    width: 150px;
+    height: 150px;
+    background-color:whitesmoke;
+}
+
+.red {
+    position: absolute;
+    background-color: red;
+    /* left: 50%;
+    margin-left: -75px;
+    top: 50%;
+    margin-top: -75px; */
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+
+.fixed {
+    position: fixed;
+    background-color: wheat;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 5;
+}
+
+.sticky {
+    background-color: turquoise;
+    position: sticky;
+    top: 100px;
+    left: 0;
+    display: none;
+}
