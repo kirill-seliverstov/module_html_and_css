@@ -1,0 +1,60 @@
+body {
+    height: 150vh;
+}
+
+.div0 {
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    border: 1px solid blue;
+}
+
+.progress {
+    position: relative;
+    right: 28%;
+    text-align: center;
+    height: auto;
+    background-color: rgb(139, 139, 219);
+    
+}
+
+.modal {
+    position: fixed;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 250px;
+    height: 150px;
+    margin:auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 10px 10px 10px;
+    display: block;
+    border-bottom: 1px solid black;
+    width: 100% auto;
+}
+
+.text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    padding: 15px 10px 10px;
+    display: block;
+    border-bottom: 1px solid black;
+    width: 100% auto;
+    height: 35px;
+}
+
+button {
+    position: absolute;
+    display: block;
+    bottom: 0;
+    right: 0;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
