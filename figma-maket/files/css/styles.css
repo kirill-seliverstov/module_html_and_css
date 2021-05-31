@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-bottom: 1px solid #A1A1A1;
+    position: fixed;
+    top: 0;
+}
+
+.menu__item {
+    display: inline-block;
+    padding: 40px 20px 38px;
+    border-bottom: 2px solid transparent;
+}
+
+.menu__item:hover {
+    border-bottom: 2px solid #ffffff;
+}
+
+.menu__link {
+    color: #ffffff;
+    font-weight: 500;
+    line-height: 1;
+    text-decoration: none;
+}
+
+.title {
+    height: 150vh;
+    background-image: url('/figma-maket/files/img/bg.png');
+}
+
+.title__name {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 320px;
+}
+
+.title__slogan {
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    color: #FFFFFF;
+}

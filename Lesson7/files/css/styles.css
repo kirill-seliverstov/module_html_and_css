@@ -1,0 +1,25 @@
+/* .visibility {
+    width: 300px;
+    height: 200px;
+    background-color: rgba(255, 99, 71, 0.521);
+    visibility: hidden;
+    opacity: .3;
+    font-size: 30px;
+    overflow: auto;
+} */
+
+.btn {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #c7c7c7;
+    border: none;
+    padding: 20px 30px;
+    background-color: #444;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.btn--error {
+    background-color: red;
+}
