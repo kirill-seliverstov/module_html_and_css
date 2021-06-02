@@ -1,20 +1,28 @@
-* {
-    box-sizing: border-box;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap');
+
+body {
+    height: 150vh;
 }
 
-.header {
+.first-screen {
     width: 100%;
-    padding-left: 50px;
-    padding-right: 50px;
+    height: 900px;
+    background-position: center;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/bg.png');
+    background-repeat: no-repeat;
+}
+
+.menu {
+    width: 100%;
     border-bottom: 1px solid #A1A1A1;
+    padding-left: 40px;
     position: fixed;
     top: 0;
 }
 
 .menu__item {
     display: inline-block;
-    padding: 40px 20px 38px;
-    border-bottom: 2px solid transparent;
+    padding: 40px 30px;
 }
 
 .menu__item:hover {
@@ -22,30 +30,55 @@
 }
 
 .menu__link {
-    color: #ffffff;
-    font-weight: 500;
-    line-height: 1;
     text-decoration: none;
 }
 
-.title {
-    height: 150vh;
-    background-image: url('/layout/files/img/bg.png');
-}
-
-.title__name {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 20px;
+.first-screen__text {
     color: #ffffff;
-    text-align: center;
-    padding-top: 320px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px; 
 }
 
-.title__slogan {
-    font-weight: 800;
+
+/* Передовая IT студия */
+.first-screen__it-studio{
+    position: absolute;
+    top: 319px;
+    left: 50%;
+    margin-left: -87px;
+    width: 175px;
+    height: 20px;
+
+}
+
+/* Мы создаем легкие решения сложных задач и проблем */
+.first-screen__easy-peasy {
+    position: absolute;
+    top: 359px;
+    left: 50%;
+    margin-left: -414px;
+    width: 829px;
+    height: 111px;
+    font-style: normal;
+    font-weight: bolder;
     font-size: 48px;
     line-height: 64px;
     text-align: center;
-    color: #FFFFFF;
+}
+
+/* Наши проекты! */
+.first-screen__button {
+    position: absolute;
+    top: 533px;
+    left: 50%;
+    margin-left: -100px;
+    width: 200px;
+    height: 45px;
+    border: none;
+    background: #4985FF;
+    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+    border-radius: 30px;
 }
