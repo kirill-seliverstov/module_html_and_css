@@ -43,9 +43,9 @@ header, main, footer {
     display: flex;
 }
 
-.menu__item {
+/* .menu__item {
 
-}
+} */
 
 .menu__item:not(:last-child){
     padding-right: 56px;
