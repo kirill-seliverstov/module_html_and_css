@@ -80,6 +80,10 @@ header, main, footer {
     background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
 }
 
+.button--content {
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+}
+
 .section {
     padding-left: 312px;
     padding-right: 312px;
@@ -87,7 +91,11 @@ header, main, footer {
 
 .first-screen {
     background-image: url('../img/main-screen__bgc.png');
+    background-position: center center;
+    background-attachment: fixed;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #000000;
 }
 
 .first-screen__wrapper {
@@ -124,6 +132,50 @@ header, main, footer {
     text-align: center;
     opacity: 0.3;
 }
+
+.last-line {
+    display: flex;
+    justify-content: space-between;
+    height: 130px;
+    padding: 43px 312px;
+    background: #121212;
+}
+
+
+.people__text{
+    display: flex;
+    justify-content: space-between;
+    line-height: 150%;
+}
+
+.people__text--earned {
+    justify-content: start;
+}
+
+.people__students {
+    opacity: 0.4;
+}
+
+.people__number {
+    font-weight: bold;
+    padding-left: 30px;
+}
+
+.progressbar {
+    display: flex;
+    background-color: #ffffff;
+    width: 714px;
+    height: 6px;
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+
+.progressbar__loaded {
+    width: 40%;
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+}
+
+
 
 @media screen and (max-width: 1425px) {
     .menu {
@@ -176,7 +228,7 @@ header, main, footer {
 
     .header__wrapper {
         width: 100%;
-        justify-content: space-between;
+        justify-content: space-around;
     }
 
     .logo {
@@ -188,3 +240,34 @@ header, main, footer {
     }
 }
 
+@media screen and (max-width: 1850px) {
+    .section {
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+    
+    .last-line {
+        padding: 43px 200px;
+    }
+
+    .progressbar {
+        width: 500px;
+    }
+
+}
+
+@media screen and (max-width: 1440px) {
+    .section {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    
+    .last-line {
+        padding: 43px 100px;
+    }
+
+    .progressbar {
+        width: 100%;
+    }
+
+}
