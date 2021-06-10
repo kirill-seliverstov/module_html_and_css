@@ -10,6 +10,15 @@ html, body {
     font-family: Roboto, 'Courier New', Courier, monospace;
 }
 
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+    border-radius: 10px;
+}
+
 body {
     background-color: #000000;
     background-image: url('../img/bg-body.png');
@@ -28,10 +37,6 @@ header, main, footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.logo {
-    /* z-index: 1; */
 }
 
 .header__wrapper {
