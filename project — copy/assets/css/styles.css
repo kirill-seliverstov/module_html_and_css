@@ -37,6 +37,7 @@ header, main, footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 1;
 }
 
 .header__wrapper {
@@ -181,6 +182,114 @@ header, main, footer {
 }
 
 
+.about__wrapper {
+    display: flex;
+    padding-top: 200px;
+}
+
+.about__img {
+    position: relative;
+}
+
+.pc-img {
+    position: absolute;
+    top: 96px;
+    left: 40px;
+}
+
+.about__title {
+    padding-top: 69px;
+    padding-left: 134px;
+}
+
+.chapter {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 140%;
+}
+
+.about__desc {
+    width: 636px;
+    line-height: 160%;
+    padding-top: 45px;
+    padding-left: 139px;
+}
+
+.start {
+    padding-top: 200px;
+    padding-left: 293px;
+}
+
+.start__head {
+    display: flex;
+}
+
+.start__logo {
+    padding-left: 31.22px;
+}
+
+.start__title {
+    padding-top: 31px;
+    padding-left: 20px;
+}
+
+.start__desc {
+    opacity: 0.4;
+    padding-top: 51.22px;
+    padding-left: 24px;
+    line-height: 160%;
+}
+
+.start__infographic {
+    display: flex;
+    margin-top: 80px;
+    margin-left: 19px;
+}
+
+.infographic__number {
+    font-size: 36px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    line-height: 140%;
+}
+
+.infographic__block {
+    width: 324px;
+    height: 80px;
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.infographic__desc {
+    font-size: 14px;
+    width: 306px;
+    padding-top: 35px;
+    padding-left: 0;
+}
+
+.infographic__number--second {
+    padding-bottom: 30px;
+}
+
+.infographic__number--third {
+    padding-bottom: 45px;
+}
+
+.infographic__number--fourth {
+    padding-bottom: 55px;
+}
+
+.infographic__block--second {
+    height: 60px;
+}
+
+.infographic__block--third {
+    height: 30px;
+}
+
+.infographic__block--fourth {
+    height: 10px;
+}
 
 @media screen and (max-width: 1425px) {
     .menu {
