@@ -291,6 +291,44 @@ header, main, footer {
     height: 10px;
 }
 
+.advantages {
+    padding-top: 200px;
+    text-align: center;
+}
+
+.advantages__title {
+    padding-bottom: 120px;
+}
+
+.worth {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.worth__item {
+    /* text-align: center; */
+}
+
+.caption {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 140%;
+}
+
+.worth__title {
+    padding-top: 60px;
+}
+
+.worth__desc {
+    width: 358px;
+    font-size: 16px;
+    line-height: 160%;
+    opacity: 0.8;
+    padding-top: 30px;
+}
+
+
 @media screen and (max-width: 1425px) {
     .menu {
         padding-right: 56px;
