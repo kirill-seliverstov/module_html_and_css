@@ -1,0 +1,68 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rotate {
+    width: 300px;
+    height: 300px;
+    background-color: brown;
+    color: #ffffff;
+    transform: rotate(0) scale(2) translate(100px, 100px) skew(30deg);
+    transform-origin: right top;
+}
+
+.perspective {
+    height: 300px;
+    width: 300px;
+    background-color: orange;
+    transform: perspective(300px) rotateX(45deg) rotateY(45deg) rotateZ(45deg);
+}
+
+.transition {
+    height: 300px;
+    width: 300px;
+    background-color: tomato;
+    transition: background-color 1s ease-in-out .5s;
+}
+
+.transition:hover {
+    width: 400px;
+    height: 400px;
+    background-color: yellowgreen;
+}
+
+.keyframe {
+    height: 300px;
+    width: 300px;
+    background-color: lightskyblue;
+    animation: block 5s ease-in-out infinite alternate;
+}
+
+@keyframes block {
+    25%{ 
+        width: 500px;
+        background-color: yellowgreen;
+        border-radius: 25px 0 0 0;
+     }
+
+     50%{ 
+        width: 300px;
+        background-color: pink;
+        border-radius: 0 25px 0 0;
+     }
+
+    75%{ 
+        width: 400px;
+        background-color: pink;
+        border-radius: 0 0 25px 0 ;
+     }
+
+    100%{ 
+        width: 350px;
+        background-color: crimson;
+        border-radius: 0 0 0  25px;
+     }
+}
