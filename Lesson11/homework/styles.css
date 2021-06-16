@@ -1,0 +1,75 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bar {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.progressbar {
+    display: flex;
+    height: 30px;
+    width: 500px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.progressbar__progress {
+    text-align: center;
+    padding-top: 3px;
+    font-size: 0;
+    width: 0;
+    animation: loading 5s linear 1s forwards;
+}
+
+@keyframes loading {
+    14% {
+        width: 14%;
+        background-color: crimson;
+        font-size: 0px;
+    }
+
+    28% {
+        width: 28%;
+        background-color: orangered;
+        font-size: 0px;
+    }
+
+    42% {
+        width: 42%;
+        background-color: gold;
+        font-size: 0px;
+    }
+
+    56% {
+        width: 56%;
+        background-color: greenyellow;
+        font-size: 0px;
+    }
+
+    70% {
+        width: 70%;
+        background-color: lightskyblue;
+        font-size: 0px;
+    }
+
+    84% {
+        width: 84%;
+        background-color: blue;
+        font-size: 0px;
+    }
+
+    100% {
+        width: 100%;
+        background-color: purple;
+        font-size: 20px;
+        font-family: 'Courier New', Courier, monospace;
+        color: whitesmoke;
+    }
+}
