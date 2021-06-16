@@ -21,10 +21,12 @@ body {
 }
 
 .progressbar__progress {
-    text-align: center;
-    padding-top: 3px;
-    font-size: 0;
     width: 0;
+    padding-top: 3px;
+    text-align: center;
+    font-size: 0;
+    font-family: 'Courier New', Courier, monospace;
+    color: whitesmoke;
     animation: loading 5s linear 1s forwards;
 }
 
@@ -69,7 +71,6 @@ body {
         width: 100%;
         background-color: purple;
         font-size: 20px;
-        font-family: 'Courier New', Courier, monospace;
-        color: whitesmoke;
+        
     }
 }
