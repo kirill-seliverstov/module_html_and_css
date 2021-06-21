@@ -11,12 +11,52 @@ html, body{
 
 body{
     background-color: #000000;
-    background-image: url('../image/bk-body.png');
+    background-image: url('../img/bg-body.png');
 }
 
 header, main, footer{
     max-width: 1920px;
     margin: 0 auto;
+}
+
+img{
+    max-width: 100%;
+}
+
+.title{
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.title--center {
+    text-align: center;
+}
+
+.description{
+    font-size: 16px;
+    line-height: 160%;
+}
+
+.description--opacity-5{
+    opacity: 0.5;
+}
+
+.description--opacity-8{
+    opacity: 0.8;
+}
+
+.description--small{
+    font-size: 14px;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+}
+
+.icon__circle{
+    margin-right: 20px;
 }
 
 .header{
@@ -86,7 +126,7 @@ header, main, footer{
 }
 
 .first-screen{
-    background-image: url('../image/bk-first-screen.png');
+    background-image: url('../img/main-screen__bgc.png');
 }
 
 .first-screen__wrapper{
@@ -128,8 +168,13 @@ header, main, footer{
     background-color: #121212;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding-top: 36px;
     padding-bottom: 36px;
+}
+
+.table-count .table-count__row:first-child .table-count__col{
+    padding-bottom: 10px;
 }
 
 .table-count__name{
@@ -149,6 +194,8 @@ header, main, footer{
     width: 100%;
     height: 6px;
     background-color: #fff;
+    margin-top: 8px;
+    margin-bottom: 5px;
 }
 
 .progress-earned__precent{
@@ -167,7 +214,157 @@ header, main, footer{
 }
 
 
+.about{
+    display: flex;
+    justify-content: space-between;
+    margin: 200px 0;
+}
+
+.about__wrapper{
+    margin-right: 20px;
+}
+
+.about__text{
+    max-width: 636px;
+    margin-top: 70px;
+}
+
+.about__title{
+    margin-bottom: 45px;
+}
+
+.fast-start__subtitle{
+    max-width: 411px;
+    margin-top: 20px;
+}
+
+.scale{
+    display: flex;
+    margin-top: 80px;
+}
+
+.scale__item{
+    width: 25%;
+}
+
+.scale__precent{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.scale__wrapper{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+
+.scale__progress{
+    flex: 1;
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+}
+
+.scale__desc {
+    padding-right: 10px;
+}
+
+.scale__progress--revers{
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.scale__progress-full{
+    height: 100%;
+}
+
+.scale__progress-quarter{
+    height: 75%;
+}
+
+.scale__progress-half{
+    height: 37.5%
+}
+
+.scale__progress-total{
+    height: 12.5%;
+}
+
+.advantages {
+    margin-top: 200px;
+}
+
+.advantages__wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 125px;
+}
+
+.advantages__item {
+    width: 358px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.advantages__title {
+    margin-top: 65px;
+    margin-bottom: 30px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 140%;
+    text-align: center;
+    
+}
+
+.advantages__desc {
+    text-align: center;
+}
+
+@media screen and (max-width:1720px) {
+    
+    .section {
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+
+    /* .advantages__title {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    
+    .advantages__desc {
+        padding-left: 5px;
+        padding-right: 5px;
+    } */
+}
+
+@media screen and (max-width: 1620px){
+    .study-count{
+        flex-wrap: wrap;
+    }
+
+    .progress-earned{
+        width: 100%;
+        margin-top: 25px;
+    }
+
+    .about{
+        align-items: center;
+    }
+
+    .about__text{
+        margin-top: 0;
+    }
+}
+
 @media screen and (max-width: 1425px){
+    .section {
+        padding-right: 100px;
+        padding-left: 100px;
+    }
+
     .menu{
         padding-right: 56px;
     }
@@ -176,6 +373,27 @@ header, main, footer{
         background-position: 85% center;
         background-size: cover;
     }
+
+    .about{
+        flex-direction: column;
+        margin: 100px 0;
+    }
+
+    .about__wrapper{
+        width: 35%;
+        margin-right: 0;
+    }
+
+    .about__text{
+        text-align: center;
+        margin-top: 45px;
+    }
+
+    .advantages__title, .advantages__desc {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
 }
 
 @media screen and (max-width: 1210px){
@@ -184,8 +402,24 @@ header, main, footer{
     }
 
     .section{
-        padding-left: 200px;
-        padding-right: 200px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .advantages__wrapper {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 45px;
+    }
+
+    .advantages__item {
+        width: 500px;
+        margin-bottom: 35px;
+    }
+
+    .advantages__title {
+        margin-top: 20px;
+        margin-bottom: 10px;
     }
 }
 
@@ -231,6 +465,46 @@ header, main, footer{
     .timer{
         justify-content: center;
     }
+
+    .about{
+        margin: 36px 0;
+    }
+
+    .scale {
+        flex-wrap: wrap;
+    }
+
+    .scale__wrapper {
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        height: 20px;
+    }
+
+    .scale__item {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .scale__progress {
+        height: 100%;
+    }
+
+    .scale__progress-quarter {
+        width: 75%;
+    }
+
+    .scale__progress-half {
+        width: 37.5%;
+    }
+
+    .scale__progress-total {
+        width: 12.5%;
+    }
+
+    .advantages {
+        margin-top: 45px;
+    }
 }
 
 @media screen and (max-width: 767px){
@@ -253,6 +527,10 @@ header, main, footer{
 }
 
 @media screen and (max-width: 500px){
+    .title{
+        font-size: 28px;
+    }
+
     .header{
         flex-direction: column;
         padding: 15px 10px;
@@ -289,5 +567,31 @@ header, main, footer{
     .timer__item{
         width: calc(50% - 5px);
         margin-bottom: 10px;
+    }
+
+    .study-count{
+        justify-content: center;
+    }
+
+    .study-count__substribe{
+        margin-top: 25px;
+        order: 2;
+    }
+
+    .table-count{
+        width: 100%;
+    }
+
+    .table-count__result{
+        text-align: right;
+    }
+
+    .about__wrapper{
+        width: 65%;
+
+    }
+
+    .advantages__item {
+        width: 100%;
     }
 }

@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body, html {
+    font-family: Montserrat;
+}
+
+.text-content {
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.text-content--grey {
+    color: #999999;
+}
+
+.text-content--grey--small {
+    font-size: 14px;
+}
+
+.desc-title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    border-bottom: 1px solid #a1a1a1;
+    width: 100%;
+}
+
+.menu__list {
+    display: flex;
+    justify-content: space-around;
+    padding-right: 405px;
+    padding-left: 952px;
+}
+
+.menu__item {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.menu__link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.menu__item:hover {
+    border-bottom: 2px solid #ffffff;
+}
+
+.first-screen {
+    height: 900px;
+    background-image: url('../images/first-screen-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.first-screen__title {
+    padding-top: 319px;
+    padding-bottom: 20px;
+}
+
+.first-screen__chapter {
+    font-size: 48px;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+.button {
+    background: #4985FF;
+    border: none;
+    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+    border-radius: 30px;
+    width: 200px;
+    height: 45px;
+}
+
+.button--our-projects {
+    margin-top: 50px;
+}
+
+.chapter {
+    color: #323232;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 53px;
+}
+
+.services__wrapper {
+    text-align: center;
+    padding-top: 110px;
+    margin-left: 405px;
+    margin-right: 405px;
+}
+
+.services__desc {
+    padding-top: 50px;
+}
+
+.creating-sites {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 70px;
+}
+
+.creating-sites__item {
+    display: flex;
+}
+
+.creating-sites__border--outer {
+    border: 1px solid #e0e0e0;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.creating-sites__border--inner {
+    border: 1px solid #4985FF;
+    border-radius: 50%;
+    padding: 25px;
+}
+
+.creating-sites__desc {
+    text-align: left;
+    padding: 30px 30px 0 18px;
+}
+
+.creating-sites__text {
+    padding-top: 12px;
+}
+
+@media screen and (max-width: 1800px) {
+    .menu__list {
+        padding-left: 800px;
+    }
+
+    .menu__item {
+        padding: 40px 20px;
+    }
+}
+
+@media screen and (max-width: 1425px) {
+    .menu__list {
+        padding-left: 650px;
+    }
+
+    .first-screen {
+        background-size: auto;
+        background-position: -20px center;
+    }
+}

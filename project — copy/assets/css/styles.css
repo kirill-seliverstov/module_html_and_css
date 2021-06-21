@@ -251,18 +251,30 @@ header, main, footer {
     margin-left: 19px;
 }
 
+.infographic__item {
+    width: 25%;
+}
+
 .infographic__number {
     font-size: 36px;
     font-weight: bold;
-    padding-bottom: 20px;
-    line-height: 140%;
 }
 
-.infographic__block {
-    width: 324px;
+.infographic__wrapper {
+    display: flex;
+    align-items: center;
     height: 80px;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+
+.infographic__progress {
+    flex: 1;
     background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
-    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.infographic__block--full {
+    height: 100%;
 }
 
 .infographic__desc {
@@ -272,28 +284,20 @@ header, main, footer {
     padding-left: 0;
 }
 
-.infographic__number--second {
-    padding-bottom: 30px;
-}
-
-.infographic__number--third {
-    padding-bottom: 45px;
-}
-
-.infographic__number--fourth {
-    padding-bottom: 55px;
+.infographic__block--reverse {
+    transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
 .infographic__block--second {
-    height: 60px;
+    height: 75%;
 }
 
 .infographic__block--third {
-    height: 30px;
+    height: 37.5%;
 }
 
 .infographic__block--fourth {
-    height: 10px;
+    height: 12.5%;
 }
 
 .advantages {
@@ -372,6 +376,10 @@ header, main, footer {
     border-right: 0;
 }
 
+@media screen and (max-width: 1620px) {
+
+}
+
 @media screen and (max-width: 1425px) {
     .menu {
         padding-right: 56px;
@@ -415,6 +423,10 @@ header, main, footer {
     }
 }
 
+@media screen and (max-width: 767px) {
+    
+} 
+
 @media screen and (max-width: 500px) {
     .header {
         flex-direction: column;
@@ -433,36 +445,4 @@ header, main, footer {
     .button {
         font-size: 10px;
     }
-}
-
-@media screen and (max-width: 1850px) {
-    .section {
-        padding-left: 200px;
-        padding-right: 200px;
-    }
-    
-    .last-line {
-        padding: 43px 200px;
-    }
-
-    .progressbar {
-        width: 500px;
-    }
-
-}
-
-@media screen and (max-width: 1440px) {
-    .section {
-        padding-left: 100px;
-        padding-right: 100px;
-    }
-    
-    .last-line {
-        padding: 43px 100px;
-    }
-
-    .progressbar {
-        width: 100%;
-    }
-
 }

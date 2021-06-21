@@ -1,0 +1,31 @@
+@import 'button.scss';
+
+$color: #c7c7c7;
+
+%font {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 2;
+    color: gold;
+}
+
+@mixin font($size, $bold) {
+    font-size: $size;
+    font-weight: $bold;
+}
+
+.wrapper {
+    padding: 10px;
+    
+    .wrapper__item {
+        width: 100px;
+        height: 100px;
+        background-color: brown;
+        margin-left: 10px;
+    }
+
+    &__item {
+        border: 2px solid $color;
+        @include font(34px, 700)
+    } 
+}
