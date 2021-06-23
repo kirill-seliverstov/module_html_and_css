@@ -45,7 +45,6 @@
 .catalog__item--pink {
     background-color: pink;
     transition: 1s ease-in-out;
-
 }
 
 .catalog__item--pink:hover {

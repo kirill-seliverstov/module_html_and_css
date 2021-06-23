@@ -55,8 +55,17 @@ img{
     align-items: center;
 }
 
+.icon--vertical {
+    flex-direction: column;
+}
+
 .icon__circle{
     margin-right: 20px;
+}
+
+.icon__circle--vertical {
+    margin-right: 0;
+    margin-bottom: 13px;
 }
 
 .header{
@@ -322,6 +331,77 @@ img{
     text-align: center;
 }
 
+.partners {
+    margin-top: 200px;
+}
+
+.partners__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+
+.partners__item {
+    width: 25%;
+    padding: 29px 66px;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.partners__item:nth-child(4n) {
+    border-right: none;
+}
+
+.partners__item:nth-child(-n+4) {
+    border-top: none;
+}
+
+.program__subtitle {
+    margin-top: 30px;
+}
+
+.program__subtitle span {
+    display: block;
+    text-align: center;
+}
+
+.program__wrapper {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.program__left {
+    text-align: right;
+}
+
+.program__left .week {
+    padding-right: 60px;
+}
+
+.program__right .week {
+    padding-left: 60px;
+}
+
+.program__tree {
+    width: 6px;
+    height: 100%;
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+}
+
+.week {
+    max-width: 288px;
+}
+
+.week__description {
+    font-size: 18px;
+    line-height: 160%;
+    color: #ffffff;
+    margin-top: 15px;
+}
+
+
 @media screen and (max-width:1720px) {
     
     .section {
@@ -421,7 +501,28 @@ img{
         margin-top: 20px;
         margin-bottom: 10px;
     }
+
+    .partners__item {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        border-top: 1px solid rgba(255, 255, 255, 0.3);
+        border-right: 1px solid rgba(255, 255, 255, 0.3);
+    }
+    
+    .partners__item:nth-child(2n) {
+        border-right: none;
+    }
+    
+    .partners__item:nth-child(-n+4) {
+        border-top: 1px solid rgba(255, 255, 255, 0.3);
+    }
+    
+    .partners__item:nth-child(-n+2) {
+        border-top: none;
+    }
 }
+
 
 @media screen and (max-width: 1075px){
     .burger-box{
@@ -504,6 +605,14 @@ img{
 
     .advantages {
         margin-top: 45px;
+    }
+
+    .partners {
+        margin-top: 45px;
+    }
+
+    .partners__wrapper {
+        margin-top: 20px;
     }
 }
 
@@ -593,5 +702,9 @@ img{
 
     .advantages__item {
         width: 100%;
+    }
+
+    .partners__item {
+        padding: 15px 30px;
     }
 }
