@@ -1,0 +1,19 @@
+.devices {
+    margin-top: 63px;
+    text-align: center;
+    
+    &__title {
+        margin-bottom: 52px;
+    }
+    
+    &__wrapper {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+.phone-image {
+    max-width: 100%;
+    height: auto;
+}

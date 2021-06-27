@@ -2,6 +2,8 @@
 @import './base/_reset.scss';
 @import './components/_buttons.scss';
 @import './layout/_header.scss';
+@import './layout/_menu.scss';
+@import './layout/devices.scss';
 
 * {
     box-sizing: border-box;
@@ -120,13 +122,14 @@ header, main, footer{
 
 .services__pricelist {
     margin-top: 100px;
+    a {
+        color: #ED4C5C;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
 }
 
-.services__pricelist a {
-    color: #ED4C5C;
-    text-transform: uppercase;
-    text-decoration: none;
-}
+
 
 
 

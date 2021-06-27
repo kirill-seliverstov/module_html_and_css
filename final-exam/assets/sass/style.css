@@ -406,6 +406,24 @@ textarea {
   font-weight: bold;
 }
 
+.devices {
+  margin-top: 63px;
+  text-align: center;
+}
+.devices__title {
+  margin-bottom: 52px;
+}
+.devices__wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.phone-image {
+  max-width: 100%;
+  height: auto;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -523,7 +541,6 @@ header, main, footer {
 .services__pricelist {
   margin-top: 100px;
 }
-
 .services__pricelist a {
   color: #ED4C5C;
   text-transform: uppercase;
