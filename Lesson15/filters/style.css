@@ -1,0 +1,82 @@
+.gradient {
+    height: 50vh;
+}
+
+.linear {
+    /* background-image: linear-gradient(to top, rgb(107, 107, 107), #ffffff, #000000); */
+    /* background-image: linear-gradient(to right, rgb(107, 107, 107), #ffffff, #000000); */
+    /* background-image: linear-gradient(to bottom, rgb(107, 107, 107), #ffffff, #000000); */
+    /* background-image: linear-gradient(to left, #444, #ffffff, #444); */
+    background-image: linear-gradient(45deg, #444, #ffffff, #444);
+}
+
+.radio {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    /* background-image: radial-gradient(at left bottom, #000000, #ff00ff, #ffffff); */
+    background-image: radial-gradient(at left bottom, #000000, #ff00ff, #ffffff);
+}
+
+.shadow {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    /* Смещение X, смещение Y, радиус размытия, толщина, цвет */
+    /* box-shadow: 5px 5px 10px 5px pink;  */
+    border: 1px solid pink;
+    /* box-shadow: inset 5px 5px 10px 5px pink; Тень внутри */
+    transition: .5s;
+}
+
+.shadow:hover {
+    box-shadow: inset 0px 0px 10px 5px pink;
+}
+
+.shadow-text {
+    font-size: 20px;
+    padding: 20px;
+    text-shadow: 2px 3px 10px purple;
+}
+
+.filters {
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.filters img {
+    transition: .5s;
+}
+
+.brightness:hover {
+    filter: brightness(.5);
+}
+
+.contrast:hover {
+    filter: contrast(1.8);
+}
+
+.opacity:hover {
+    filter: opacity(.3);
+}
+
+.saturate:hover {
+    filter: saturate(2.3);
+    cursor: crosshair;
+}
+
+.invert:hover {
+    filter: invert(2);
+}
+
+.sepia:hover {
+    filter: sepia(2);
+}
+
+.blur:hover {
+    filter: blur(2px);
+    cursor: pointer;
+}
+
