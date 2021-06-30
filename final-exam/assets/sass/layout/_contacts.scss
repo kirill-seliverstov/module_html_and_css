@@ -1,0 +1,36 @@
+.contacts {
+    margin-top: 117px;
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    &__description {
+        max-width: 434px;
+        padding-top: 25px;
+        font-size: 14px;
+        line-height: 140%; 
+    }
+
+    &__input {
+        width: 100%;
+        padding-top: 21px;
+        padding-bottom: 21px;
+        padding-left: 31px;
+        border: 1px solid #333333;
+        border-radius: 6px;
+        margin-bottom: 15px;
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    &__name-input {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__first-name {
+        margin-right: 30px;
+    }
+}

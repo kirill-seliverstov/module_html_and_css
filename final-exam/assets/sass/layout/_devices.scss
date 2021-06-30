@@ -11,9 +11,20 @@
         justify-content: space-around;
         align-items: center;
     }
+    
+    &__minititle {
+        padding-top: 19px;
+    }
+
+    &__link {
+        text-decoration: none;
+        cursor: pointer;
+        color: #ED4C5C; 
+    }
 }
 
 .phone-image {
     max-width: 100%;
     height: auto;
 }
+

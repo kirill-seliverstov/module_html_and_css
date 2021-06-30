@@ -375,6 +375,12 @@ textarea {
   text-transform: uppercase;
   padding: 17px 53px;
 }
+.button--contacts {
+  background: #ED4C5C;
+  border: 1.5px solid #ED4C5C;
+  color: #ffffff;
+  padding: 17px 34px;
+}
 
 .header {
   width: 100%;
@@ -384,6 +390,7 @@ textarea {
   justify-content: space-around;
   align-items: center;
   padding: 38px 80px;
+  z-index: 1;
 }
 
 .menu__list {
@@ -418,10 +425,50 @@ textarea {
   justify-content: space-around;
   align-items: center;
 }
+.devices__minititle {
+  padding-top: 19px;
+}
+.devices__link {
+  text-decoration: none;
+  cursor: pointer;
+  color: #ED4C5C;
+}
 
 .phone-image {
   max-width: 100%;
   height: auto;
+}
+
+.contacts {
+  margin-top: 117px;
+}
+.contacts__wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+.contacts__description {
+  max-width: 434px;
+  padding-top: 25px;
+  font-size: 14px;
+  line-height: 140%;
+}
+.contacts__input {
+  width: 100%;
+  padding-top: 21px;
+  padding-bottom: 21px;
+  padding-left: 31px;
+  border: 1px solid #333333;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  line-height: 19px;
+}
+.contacts__name-input {
+  display: flex;
+  justify-content: space-between;
+}
+.contacts__first-name {
+  margin-right: 30px;
 }
 
 * {
