@@ -382,6 +382,12 @@ textarea {
   padding: 17px 34px;
 }
 
+@media screen and (max-width: 1024px) {
+  .button {
+    font-size: 12px;
+    padding: 10px 30px;
+  }
+}
 .header {
   width: 100%;
   position: fixed;
