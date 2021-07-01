@@ -16,4 +16,15 @@
 
 .menu__link:hover {
     font-weight: bold;
+    
+}
+
+@media screen and (max-width:800px) {
+    .menu__item:not(:last-child) {
+        padding-right: 10px;
+    }
+    
+    .menu__link {
+        font-size: 10px;
+    }
 }

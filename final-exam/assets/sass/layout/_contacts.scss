@@ -34,3 +34,30 @@
         margin-right: 30px;
     }
 }
+
+@media screen and (max-width:1024px) {
+    .contacts__description {
+        font-size: 12px;
+    }
+
+    .contacts__input {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .contacts {
+        margin-top: 70px;
+    }
+
+    .contacts__wrapper {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .contacts__item:not(:last-child) {
+        margin-bottom: 20px;
+    }
+}

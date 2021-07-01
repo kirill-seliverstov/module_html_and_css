@@ -1,0 +1,50 @@
+.footer {
+    margin-top: 123px;
+    padding-top: 86px;
+    padding-bottom: 86px;
+    background-color: #fafafa;
+    font-size: 12px;
+    line-height: 14px;
+    color: #101010;
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__title {
+        padding-bottom: 33px;
+    }
+
+    &__service {
+        
+        li {
+            line-height: 160%;
+        }
+
+        a {
+            color: #101010;
+            text-decoration: none;
+        }
+    }
+
+    .address__description {
+        max-width: 254px;
+    }
+
+    .social {
+        margin-top: 10px;
+
+        a {
+            text-decoration: none;
+            padding-right: 7px;
+        }
+    }
+
+    .copyright {
+        margin-top: 86px;
+        font-size: 12px;
+        line-height: 14px;
+        color: #101010;
+    }
+}
