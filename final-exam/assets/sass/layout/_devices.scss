@@ -11,6 +11,17 @@
         justify-content: space-around;
         align-items: center;
     }
+
+    &__item{
+        transition: .2s;
+        
+        &:hover {
+            box-shadow: 0 5px 10px -7px gray;
+            padding-bottom: 10px;
+        }
+    }
+    
+    
     
     &__minititle {
         padding-top: 19px;
@@ -21,10 +32,22 @@
         cursor: pointer;
         color: #ED4C5C; 
     }
+
+    
 }
 
 .phone-image {
     max-width: 100%;
     height: auto;
+}
+
+@media screen and (max-width:500px){
+    .devices__wrapper {
+        flex-wrap: wrap;
+    }
+
+    .devices__item:not(:last-child) {
+        margin-bottom: 20px;
+    }
 }
 
