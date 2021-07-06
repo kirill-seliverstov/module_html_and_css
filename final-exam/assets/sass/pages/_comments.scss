@@ -1,0 +1,40 @@
+.comments {
+    margin-top: 175px;
+
+    &__about {
+        text-align: center;
+        margin-bottom: 50px;
+    
+        p {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+    }
+
+
+    &__item {
+        margin-bottom: 40px;
+        padding: 10px;
+        background-color: #F7F7F7;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        p {
+            max-width: 900px;
+        }
+    }
+
+    &__person {
+        text-align: center;
+        
+        p {
+            font-weight: bold;
+        }
+    }
+
+    &__avatar {
+        max-width: 120px;
+        margin-bottom: 5px;
+    }
+}
