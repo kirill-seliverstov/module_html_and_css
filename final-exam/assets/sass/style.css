@@ -543,6 +543,15 @@ textarea {
   height: auto;
 }
 
+@media screen and (max-width: 800px) {
+  .devices__item:not(:last-child) {
+    margin-right: 15px;
+  }
+
+  .devices__link {
+    padding: 10px;
+  }
+}
 @media screen and (max-width: 500px) {
   .devices__wrapper {
     flex-wrap: wrap;
@@ -649,6 +658,25 @@ textarea {
   color: #101010;
 }
 
+@media screen and (max-width: 1024px) {
+  .footer__item {
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .footer {
+    margin-top: 70px;
+  }
+  .footer__wrapper {
+    flex-wrap: wrap;
+  }
+  .footer__item {
+    width: 200px;
+  }
+  .footer__title {
+    padding-bottom: 20px;
+  }
+}
 .comments {
   margin-top: 175px;
 }
@@ -682,6 +710,11 @@ textarea {
   margin-bottom: 5px;
 }
 
+@media screen and (max-width: 1400px) {
+  .comments__feedback {
+    margin-left: 15px;
+  }
+}
 * {
   box-sizing: border-box;
 }

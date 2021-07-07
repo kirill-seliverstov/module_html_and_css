@@ -41,6 +41,17 @@
     height: auto;
 }
 
+
+@media screen and (max-width:800px) {
+    .devices__item:not(:last-child) {
+        margin-right: 15px;
+    }
+
+    .devices__link {
+        padding: 10px;
+    }
+}
+
 @media screen and (max-width:500px){
     .devices__wrapper {
         flex-wrap: wrap;
